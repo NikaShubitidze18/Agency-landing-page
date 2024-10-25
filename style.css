@@ -1,0 +1,263 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(images/desktop/image-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    background-size: 100%;
+  
+}
+main {
+    min-height: calc(100vh - 200px);
+    margin-top: 15%;
+}
+
+.text *{
+    margin-left: 6%;
+    text-decoration: none;
+    color: white;
+    font-family: Fraunces;
+}
+
+.contact{
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid white;
+
+ 
+}
+.news-wrap{
+    width: 100%;
+   display: flex;
+   
+   
+}
+.left{
+    width: 50%;
+    background-color: white;
+}
+.left-text{
+    margin-left: 10%;
+    margin-top: 20%;
+}
+.left-text *{
+    margin-top: 10%;
+    font-family: Barlow;
+}
+.right{
+    width: 50%;
+}
+.right-text{
+    width: 50%;
+    background-image: url(images/desktop/image-graphic-design.jpg);
+    text-align: center;
+    font-family:Barlow ;
+}
+.wrap-text h4{
+    font-size: 35px;
+}
+.wrap-text{
+    margin-top: 55%;
+    text-align: center;
+}
+.text {
+    justify-content: flex-end;
+    display: flex;
+    margin-left: 55%;
+    align-items: center;
+}
+.left-img{
+    width: 50%;
+    background-image:url(images/desktop/image-photography.jpg) ;
+}
+.main-text{
+    width: 100%;
+   font-size: 30px;
+   font-family: Fraunces;
+   color: white;
+   display: flex;
+   justify-content: center;
+}
+.wrao{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    font-family:Fraunces;
+    font-size: 22px;
+    color: hsl(212, 27%, 19%);
+}
+.testimonials {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.testimonial {
+    max-width: 300px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.testimonial p {
+    margin-bottom: 10px;
+    color: #555;
+    font-family: Barlow;
+}
+
+.testimonial h4 {
+    margin: 10px 0 5px;
+    font-family: Fraunces;
+}
+
+.testimonial span {
+    font-size: 14px;
+    color: #888;
+    font-family: Fraunces;
+}
+
+/* Image Grid Section */
+.image-grid {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.image-grid img {
+    width: 25%;
+    height: auto;
+    
+}
+
+/* Footer Section */
+footer {
+    margin-bottom: 0%;
+    background-color: #a3d6cc;
+    text-align: center;
+    padding: 50px;
+}
+
+footer h2 {
+    margin-bottom: 20px;
+    color: #2a4039;
+    font-family: Barlow;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+footer nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: #2a4039;
+    font-weight: bold;
+}
+
+footer .social-icons a {
+    margin: 0 10px;
+    font-family: Barlow;
+}
+
+footer .social-icons img {
+    width: 24px;
+    height: 24px;
+}
+.barlow-bold {
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+
+.fraunces-uniquifier{
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
+@media (max-width:740px){
+    .left{
+        width: 100%;
+        display: flex;
+        margin-top: 55%;
+    }
+    .left-text{
+    
+   margin-left: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+    }
+    .right{
+        width: 100%;
+        position: absolute;
+        
+    }
+    .right-text{
+        width: 100%;
+        background-image: url(images/desktop/image-graphic-design.jpg);
+        text-align: center;
+        font-family:Barlow ;
+        height: auto;
+        background-size: cover;
+    }
+    .wrap-text{
+        margin-top: 55%;
+        text-align: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .fotttt{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+     
+    }
+    .left-img{
+        width: 100%;
+        background-image:url(images/desktop/image-photography.jpg) ;
+        background-size: cover;
+    }
+    .testimonials {
+        display: flex;
+        justify-content: center;
+        padding: 50px;
+        background-color: #f9f9f9;
+        text-align: center;
+        flex-direction: column;
+    }
+    .image-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 სვეტი */       
+    }
+    .image-grid img{
+        width: 100%;
+    }
+    .news-wrap{
+        margin-top: 15%;
+    }
+}
